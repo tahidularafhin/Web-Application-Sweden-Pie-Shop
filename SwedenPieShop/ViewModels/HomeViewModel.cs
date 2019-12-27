@@ -1,0 +1,11 @@
+﻿using SwedenPieShop.Models;
+using System.Collections.Generic;
+
+namespace SwedenPieShop.ViewModels
+{
+    public class HomeViewModel
+    {
+        public string Title { get; set; }
+        public List<Pie> Pies { get; set; }
+    }
+}
